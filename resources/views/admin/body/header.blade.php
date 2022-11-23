@@ -27,23 +27,23 @@
                 </button>
             </div>
 
-       {{--     @php
+            @php
                 $id = Auth::user()->id;
                 $adminData = App\Models\User::find($id);
-            @endphp--}}
+            @endphp
 
             <div class="dropdown d-inline-block user-dropdown">
                 <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img class="rounded-circle header-profile-user"
-                         src="{{--{{(!empty($adminData->profile_image))?url('upload/admin_images/'.$adminData->profile_image):url('upload/no_image.jpg')  }}--}}"
+                         src="{{(!empty($adminData->profile_image))?url('upload/admin_images/'.$adminData->profile_image):url('upload/no_image.jpg')  }}"
                          alt="Header Avatar">
-                    <span class="d-none d-xl-inline-block ms-1">{{--{{$adminData->name}}--}}</span>
+                    <span class="d-none d-xl-inline-block ms-1">{{$adminData->name}}</span>
                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
                     <!-- item-->
-                    <a class="dropdown-item" href="{{--{{route('admin.profile')}}--}}"><i
+                    <a class="dropdown-item" href="{{route('admin.profile')}}"><i
                             class="ri-user-line align-middle me-1"></i> Profile</a>
                     <a class="dropdown-item" href="{{--{{route('change.password')}}--}}"><i class="ri-wallet-2-line align-middle me-1"></i> Change
                         Password</a>
