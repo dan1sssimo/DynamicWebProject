@@ -17,20 +17,12 @@
                 </li>
 
                 <li>
-                    <a href="#" class=" waves-effect">
-                        <i class="ri-calendar-2-line"></i>
-                        <span>Calendar</span>
-                    </a>
-                </li>
-
-                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="ri-mail-send-line"></i>
-                        <span>Email</span>
+                        <span>Home Slide Setup</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="#">Inbox</a></li>
-                        <li><a href="#">Read Email</a></li>
+                        <li><a href="{{route('home.slide')}}">Home Slide</a></li>
                     </ul>
                 </li>
 

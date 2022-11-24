@@ -11,16 +11,11 @@
                 </div>
                 <div class="col-xl-5 col-lg-6">
                     <div class="banner__content">
-                        <h2 class="title wow fadeInUp" data-wow-delay=".2s"
-                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"><span>I will give you Best</span>
-                            <br> Product in the shortest time.</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".4s"
-                           style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">I'm a
-                            Rasalina based product design &amp; visual designer focused on crafting clean &amp;
-                            user‑friendly experiences</p>
-                        <a href="about.html" class="btn banner__btn wow fadeInUp" data-wow-delay=".6s"
-                           style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">more about
-                            me</a>
+                        <h2 class="title wow fadeInUp" data-wow-delay=".2s"><span>I will give you Best</span> <br>
+                            Product in the shortest time.</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">I'm a Rasalina based product design & visual
+                            designer focused on crafting clean & user‑friendly experiences</p>
+                        <a href="about.html" class="btn banner__btn wow fadeInUp" data-wow-delay=".6s">more about me</a>
                     </div>
                 </div>
             </div>
@@ -29,7 +24,7 @@
             <a href="#aboutSection" class="scroll__link">Scroll down</a>
         </div>
         <div class="banner__video">
-            <a href="{{--{{ $homeslide->video_url  }}--}}" class="popup-video"><i class="fas fa-play"></i></a>
+            <a href="https://www.youtube.com/watch?v=XHOmBV4js_E" class="popup-video"><i class="fas fa-play"></i></a>
         </div>
     </section>
     <!-- banner-area-end -->
@@ -84,10 +79,10 @@
                                 <p>20+ Years Experience In this game, Means <br> Product Designing</p>
                             </div>
                         </div>
-                        <p class="desc">I love to work in User Experience &amp; User Interface designing. Because I
-                            love to solve the design problem and find easy and better solutions to solve it. I
-                            always try my best to make good user interface with the best user experience. I have
-                            been working as a UX Designer</p>
+                        <p class="desc">I love to work in User Experience & User Interface designing. Because I love to
+                            solve the design problem and find easy and better solutions to solve it. I always try my
+                            best to make good user interface with the best user experience. I have been working as a UX
+                            Designer</p>
                         <a href="about.html" class="btn">Download my resume</a>
                     </div>
                 </div>
@@ -108,371 +103,123 @@
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6 col-md-4">
-                        <div class="services__arrow">
-                            <button class="slick-prev slick-arrow" style=""><i class="far fa-long-arrow-left"></i>
-                            </button>
-                            <button class="slick-next slick-arrow" style=""><i class="far fa-long-arrow-right"></i>
-                            </button>
-                        </div>
+                        <div class="services__arrow"></div>
                     </div>
                 </div>
             </div>
-            <div class="row gx-0 services__active slick-initialized slick-slider">
-
-
-                <div class="slick-list draggable">
-                    <div class="slick-track"
-                         style="opacity: 1; width: 4030px; transform: translate3d(-930px, 0px, 0px);">
-                        <div class="col-xl-3 slick-slide slick-cloned" style="width: 310px;" tabindex="-1"
-                             data-slick-index="-3" id="" aria-hidden="true">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="-1"><img
-                                            src="assets/img/images/services_img03.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon03.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon03.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="-1">Product
-                                            Design</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>User Research &amp; Testing</li>
-                                        <li>UX Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Information Architecture</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="-1">Read
-                                        more</a>
-                                </div>
-                            </div>
+            <div class="row gx-0 services__active">
+                <div class="col-xl-3">
+                    <div class="services__item">
+                        <div class="services__thumb">
+                            <a href="services-details.html"><img src="assets/img/images/services_img01.jpg" alt=""></a>
                         </div>
-                        <div class="col-xl-3 slick-slide slick-cloned" style="width: 310px;" tabindex="-1"
-                             data-slick-index="-2" id="" aria-hidden="true">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="-1"><img
-                                            src="assets/img/images/services_img04.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon04.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon04.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="-1">Visual
-                                            Design</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>User Research &amp; Testing</li>
-                                        <li>UX Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Information Architecture</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="-1">Read
-                                        more</a>
-                                </div>
+                        <div class="services__content">
+                            <div class="services__icon">
+                                <img class="light" src="assets/img/icons/services_light_icon01.png" alt="">
+                                <img class="dark" src="assets/img/icons/services_icon01.png" alt="">
                             </div>
+                            <h3 class="title"><a href="services-details.html">Business Strategy</a></h3>
+                            <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
+                                forward-looking plan.</p>
+                            <ul class="services__list">
+                                <li>Research & Data</li>
+                                <li>Branding & Positioning</li>
+                                <li>Business Consulting</li>
+                                <li>Go To Market</li>
+                            </ul>
+                            <a href="services-details.html" class="btn border-btn">Read more</a>
                         </div>
-                        <div class="col-xl-3 slick-slide slick-cloned" style="width: 310px;" tabindex="-1"
-                             data-slick-index="-1" id="" aria-hidden="true">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="-1"><img
-                                            src="assets/img/images/services_img03.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon02.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon02.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="-1">Web
-                                            Development</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>User Research &amp; Testing</li>
-                                        <li>UX Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Information Architecture</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="-1">Read
-                                        more</a>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="services__item">
+                        <div class="services__thumb">
+                            <a href="services-details.html"><img src="assets/img/images/services_img02.jpg" alt=""></a>
                         </div>
-                        <div class="col-xl-3 slick-slide slick-current slick-active" style="width: 310px;"
-                             tabindex="0" data-slick-index="0" aria-hidden="false">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="0"><img
-                                            src="assets/img/images/services_img01.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon01.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon01.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="0">Business
-                                            Strategy</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>Research &amp; Data</li>
-                                        <li>Branding &amp; Positioning</li>
-                                        <li>Business Consulting</li>
-                                        <li>Go To Market</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="0">Read
-                                        more</a>
-                                </div>
+                        <div class="services__content">
+                            <div class="services__icon">
+                                <img class="light" src="assets/img/icons/services_light_icon02.png" alt="">
+                                <img class="dark" src="assets/img/icons/services_icon02.png" alt="">
                             </div>
+                            <h3 class="title"><a href="services-details.html">Brand Strategy</a></h3>
+                            <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
+                                forward-looking plan.</p>
+                            <ul class="services__list">
+                                <li>User Research & Testing</li>
+                                <li>UX Design</li>
+                                <li>Visual Design</li>
+                                <li>Information Architecture</li>
+                            </ul>
+                            <a href="services-details.html" class="btn border-btn">Read more</a>
                         </div>
-                        <div class="col-xl-3 slick-slide slick-active" style="width: 310px;" tabindex="0"
-                             data-slick-index="1" aria-hidden="false">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="0"><img
-                                            src="assets/img/images/services_img02.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon02.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon02.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="0">Brand
-                                            Strategy</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>User Research &amp; Testing</li>
-                                        <li>UX Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Information Architecture</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="0">Read
-                                        more</a>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="services__item">
+                        <div class="services__thumb">
+                            <a href="services-details.html"><img src="assets/img/images/services_img03.jpg" alt=""></a>
                         </div>
-                        <div class="col-xl-3 slick-slide slick-active" style="width: 310px;" tabindex="0"
-                             data-slick-index="2" aria-hidden="false">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="0"><img
-                                            src="assets/img/images/services_img03.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon03.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon03.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="0">Product
-                                            Design</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>User Research &amp; Testing</li>
-                                        <li>UX Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Information Architecture</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="0">Read
-                                        more</a>
-                                </div>
+                        <div class="services__content">
+                            <div class="services__icon">
+                                <img class="light" src="assets/img/icons/services_light_icon03.png" alt="">
+                                <img class="dark" src="assets/img/icons/services_icon03.png" alt="">
                             </div>
+                            <h3 class="title"><a href="services-details.html">Product Design</a></h3>
+                            <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
+                                forward-looking plan.</p>
+                            <ul class="services__list">
+                                <li>User Research & Testing</li>
+                                <li>UX Design</li>
+                                <li>Visual Design</li>
+                                <li>Information Architecture</li>
+                            </ul>
+                            <a href="services-details.html" class="btn border-btn">Read more</a>
                         </div>
-                        <div class="col-xl-3 slick-slide" style="width: 310px;" tabindex="-1" data-slick-index="3"
-                             aria-hidden="true">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="-1"><img
-                                            src="assets/img/images/services_img04.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon04.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon04.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="-1">Visual
-                                            Design</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>User Research &amp; Testing</li>
-                                        <li>UX Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Information Architecture</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="-1">Read
-                                        more</a>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="services__item">
+                        <div class="services__thumb">
+                            <a href="services-details.html"><img src="assets/img/images/services_img04.jpg" alt=""></a>
                         </div>
-                        <div class="col-xl-3 slick-slide" style="width: 310px;" tabindex="-1" data-slick-index="4"
-                             aria-hidden="true">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="-1"><img
-                                            src="assets/img/images/services_img03.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon02.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon02.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="-1">Web
-                                            Development</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>User Research &amp; Testing</li>
-                                        <li>UX Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Information Architecture</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="-1">Read
-                                        more</a>
-                                </div>
+                        <div class="services__content">
+                            <div class="services__icon">
+                                <img class="light" src="assets/img/icons/services_light_icon04.png" alt="">
+                                <img class="dark" src="assets/img/icons/services_icon04.png" alt="">
                             </div>
+                            <h3 class="title"><a href="services-details.html">Visual Design</a></h3>
+                            <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
+                                forward-looking plan.</p>
+                            <ul class="services__list">
+                                <li>User Research & Testing</li>
+                                <li>UX Design</li>
+                                <li>Visual Design</li>
+                                <li>Information Architecture</li>
+                            </ul>
+                            <a href="services-details.html" class="btn border-btn">Read more</a>
                         </div>
-                        <div class="col-xl-3 slick-slide slick-cloned" style="width: 310px;" tabindex="-1"
-                             data-slick-index="5" id="" aria-hidden="true">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="-1"><img
-                                            src="assets/img/images/services_img01.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon01.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon01.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="-1">Business
-                                            Strategy</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>Research &amp; Data</li>
-                                        <li>Branding &amp; Positioning</li>
-                                        <li>Business Consulting</li>
-                                        <li>Go To Market</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="-1">Read
-                                        more</a>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="services__item">
+                        <div class="services__thumb">
+                            <a href="services-details.html"><img src="assets/img/images/services_img03.jpg" alt=""></a>
                         </div>
-                        <div class="col-xl-3 slick-slide slick-cloned" style="width: 310px;" tabindex="-1"
-                             data-slick-index="6" id="" aria-hidden="true">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="-1"><img
-                                            src="assets/img/images/services_img02.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon02.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon02.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="-1">Brand
-                                            Strategy</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>User Research &amp; Testing</li>
-                                        <li>UX Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Information Architecture</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="-1">Read
-                                        more</a>
-                                </div>
+                        <div class="services__content">
+                            <div class="services__icon">
+                                <img class="light" src="assets/img/icons/services_light_icon02.png" alt="">
+                                <img class="dark" src="assets/img/icons/services_icon02.png" alt="">
                             </div>
-                        </div>
-                        <div class="col-xl-3 slick-slide slick-cloned" style="width: 310px;" tabindex="-1"
-                             data-slick-index="7" id="" aria-hidden="true">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="-1"><img
-                                            src="assets/img/images/services_img03.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon03.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon03.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="-1">Product
-                                            Design</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>User Research &amp; Testing</li>
-                                        <li>UX Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Information Architecture</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="-1">Read
-                                        more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 slick-slide slick-cloned" style="width: 310px;" tabindex="-1"
-                             data-slick-index="8" id="" aria-hidden="true">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="-1"><img
-                                            src="assets/img/images/services_img04.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon04.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon04.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="-1">Visual
-                                            Design</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>User Research &amp; Testing</li>
-                                        <li>UX Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Information Architecture</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="-1">Read
-                                        more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 slick-slide slick-cloned" style="width: 310px;" tabindex="-1"
-                             data-slick-index="9" id="" aria-hidden="true">
-                            <div class="services__item">
-                                <div class="services__thumb">
-                                    <a href="services-details.html" tabindex="-1"><img
-                                            src="assets/img/images/services_img03.jpg" alt=""></a>
-                                </div>
-                                <div class="services__content">
-                                    <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon02.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon02.png" alt="">
-                                    </div>
-                                    <h3 class="title"><a href="services-details.html" tabindex="-1">Web
-                                            Development</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
-                                        forward-looking plan.</p>
-                                    <ul class="services__list">
-                                        <li>User Research &amp; Testing</li>
-                                        <li>UX Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Information Architecture</li>
-                                    </ul>
-                                    <a href="services-details.html" class="btn border-btn" tabindex="-1">Read
-                                        more</a>
-                                </div>
-                            </div>
+                            <h3 class="title"><a href="services-details.html">Web Development</a></h3>
+                            <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a
+                                forward-looking plan.</p>
+                            <ul class="services__list">
+                                <li>User Research & Testing</li>
+                                <li>UX Design</li>
+                                <li>Visual Design</li>
+                                <li>Information Architecture</li>
+                            </ul>
+                            <a href="services-details.html" class="btn border-btn">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -502,7 +249,7 @@
                         </div>
                         <div class="work__process__content">
                             <h4 class="title">Discover</h4>
-                            <p>Initial ideas or inspiration &amp; Establishment of user needs.</p>
+                            <p>Initial ideas or inspiration & Establishment of user needs.</p>
                         </div>
                     </div>
                 </div>
@@ -515,7 +262,7 @@
                         </div>
                         <div class="work__process__content">
                             <h4 class="title">Define</h4>
-                            <p>Interpretation &amp; Alignment of findings to project objectives.</p>
+                            <p>Interpretation & Alignment of findings to project objectives.</p>
                         </div>
                     </div>
                 </div>
@@ -528,7 +275,7 @@
                         </div>
                         <div class="work__process__content">
                             <h4 class="title">Develop</h4>
-                            <p>Design-Led concept and Proposals hearted &amp; assessed</p>
+                            <p>Design-Led concept and Proposals hearted & assessed</p>
                         </div>
                     </div>
                 </div>
@@ -541,7 +288,7 @@
                         </div>
                         <div class="work__process__content">
                             <h4 class="title">Deliver</h4>
-                            <p>Process outcomes finalised &amp; Implemented</p>
+                            <p>Process outcomes finalised & Implemented</p>
                         </div>
                     </div>
                 </div>
@@ -566,12 +313,14 @@
                     <ul class="nav nav-tabs portfolio__nav" id="portfolioTab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all"
-                                    type="button" role="tab" aria-controls="all" aria-selected="true">All
+                                    type="button"
+                                    role="tab" aria-controls="all" aria-selected="true">All
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="website-tab" data-bs-toggle="tab" data-bs-target="#website"
-                                    type="button" role="tab" aria-controls="website" aria-selected="false">website
+                                    type="button"
+                                    role="tab" aria-controls="website" aria-selected="false">website
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
@@ -580,27 +329,27 @@
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="dashboard-tab" data-bs-toggle="tab"
-                                    data-bs-target="#dashboard" type="button" role="tab" aria-controls="dashboard"
-                                    aria-selected="false">Dashboard
+                            <button class="nav-link" id="dashboard-tab" data-bs-toggle="tab" data-bs-target="#dashboard"
+                                    type="button"
+                                    role="tab" aria-controls="dashboard" aria-selected="false">Dashboard
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="landing-tab" data-bs-toggle="tab" data-bs-target="#landing"
-                                    type="button" role="tab" aria-controls="landing" aria-selected="false">landing
-                                page
+                                    type="button"
+                                    role="tab" aria-controls="landing" aria-selected="false">landing page
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="branding-tab" data-bs-toggle="tab"
-                                    data-bs-target="#branding" type="button" role="tab" aria-controls="branding"
-                                    aria-selected="false">Branding
+                            <button class="nav-link" id="branding-tab" data-bs-toggle="tab" data-bs-target="#branding"
+                                    type="button"
+                                    role="tab" aria-controls="branding" aria-selected="false">Branding
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="graphic-tab" data-bs-toggle="tab" data-bs-target="#graphic"
-                                    type="button" role="tab" aria-controls="graphic" aria-selected="false">Graphic
-                                Design
+                                    type="button"
+                                    role="tab" aria-controls="graphic" aria-selected="false">Graphic Design
                             </button>
                         </li>
                     </ul>
@@ -612,214 +361,84 @@
                 <div class="container">
                     <div class="row gx-0 justify-content-center">
                         <div class="col">
-                            <div class="portfolio__active slick-initialized slick-slider">
-                                <button class="slick-prev slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-left"></i></button>
-
-
-                                <div class="slick-list draggable">
-                                    <div class="slick-track"
-                                         style="opacity: 1; width: 11250px; transform: translate3d(-750px, 0px, 0px);">
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 750px;"
-                                             tabindex="-1" data-slick-index="-1" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-current slick-active"
-                                             style="width: 750px;" tabindex="0" data-slick-index="0"
-                                             aria-hidden="false">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="0">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="0">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 750px;" tabindex="-1"
-                                             data-slick-index="1" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 750px;" tabindex="-1"
-                                             data-slick-index="2" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 750px;" tabindex="-1"
-                                             data-slick-index="3" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 750px;" tabindex="-1"
-                                             data-slick-index="4" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 750px;" tabindex="-1"
-                                             data-slick-index="5" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 750px;" tabindex="-1"
-                                             data-slick-index="6" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 750px;"
-                                             tabindex="-1" data-slick-index="7" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 750px;"
-                                             tabindex="-1" data-slick-index="8" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 750px;"
-                                             tabindex="-1" data-slick-index="9" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 750px;"
-                                             tabindex="-1" data-slick-index="10" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 750px;"
-                                             tabindex="-1" data-slick-index="11" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 750px;"
-                                             tabindex="-1" data-slick-index="12" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 750px;"
-                                             tabindex="-1" data-slick-index="13" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
+                            <div class="portfolio__active">
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Apps Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
                                     </div>
                                 </div>
-                                <button class="slick-next slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-right"></i></button>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>UX/UI Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -829,214 +448,84 @@
                 <div class="container">
                     <div class="row gx-0 justify-content-center">
                         <div class="col">
-                            <div class="portfolio__active slick-initialized slick-slider">
-                                <button class="slick-prev slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-left"></i></button>
-
-
-                                <div class="slick-list draggable">
-                                    <div class="slick-track"
-                                         style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="-1" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-current slick-active"
-                                             style="width: 0px;" tabindex="0" data-slick-index="0"
-                                             aria-hidden="false">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="0">Nature
-                                                        of Business Strategy System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="0">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="1" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="2" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="3" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="4" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="5" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="6" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="7" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Nature
-                                                        of Business Strategy System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="8" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="9" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="10" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="11" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="12" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="13" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
+                            <div class="portfolio__active">
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Nature of Business Strategy
+                                                System</a></h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
                                     </div>
                                 </div>
-                                <button class="slick-next slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-right"></i></button>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Apps Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>UX/UI Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1046,214 +535,84 @@
                 <div class="container">
                     <div class="row gx-0 justify-content-center">
                         <div class="col">
-                            <div class="portfolio__active slick-initialized slick-slider">
-                                <button class="slick-prev slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-left"></i></button>
-
-
-                                <div class="slick-list draggable">
-                                    <div class="slick-track"
-                                         style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="-1" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-current slick-active"
-                                             style="width: 0px;" tabindex="0" data-slick-index="0"
-                                             aria-hidden="false">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="0">Product
-                                                        Design and Development</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="0">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="1" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="2" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="3" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="4" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="5" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="6" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="7" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Product
-                                                        Design and Development</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="8" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="9" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="10" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="11" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="12" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="13" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
+                            <div class="portfolio__active">
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Product Design and
+                                                Development</a></h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
                                     </div>
                                 </div>
-                                <button class="slick-next slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-right"></i></button>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Apps Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>UX/UI Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1263,214 +622,84 @@
                 <div class="container">
                     <div class="row gx-0 justify-content-center">
                         <div class="col">
-                            <div class="portfolio__active slick-initialized slick-slider">
-                                <button class="slick-prev slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-left"></i></button>
-
-
-                                <div class="slick-list draggable">
-                                    <div class="slick-track"
-                                         style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="-1" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-current slick-active"
-                                             style="width: 0px;" tabindex="0" data-slick-index="0"
-                                             aria-hidden="false">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="0">Brand
-                                                        strategy System Management</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="0">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="1" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="2" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="3" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="4" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="5" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="6" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="7" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Brand
-                                                        strategy System Management</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="8" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="9" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="10" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="11" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="12" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="13" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
+                            <div class="portfolio__active">
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Brand strategy System
+                                                Management</a></h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
                                     </div>
                                 </div>
-                                <button class="slick-next slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-right"></i></button>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Apps Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>UX/UI Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1480,214 +709,84 @@
                 <div class="container">
                     <div class="row gx-0 justify-content-center">
                         <div class="col">
-                            <div class="portfolio__active slick-initialized slick-slider">
-                                <button class="slick-prev slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-left"></i></button>
-
-
-                                <div class="slick-list draggable">
-                                    <div class="slick-track"
-                                         style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="-1" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-current slick-active"
-                                             style="width: 0px;" tabindex="0" data-slick-index="0"
-                                             aria-hidden="false">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="0">Visual
-                                                        Design System Management</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="0">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="1" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="2" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="3" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="4" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="5" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="6" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="7" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Visual
-                                                        Design System Management</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="8" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="9" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="10" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="11" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="12" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="13" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
+                            <div class="portfolio__active">
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Visual Design System
+                                                Management</a></h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
                                     </div>
                                 </div>
-                                <button class="slick-next slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-right"></i></button>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Apps Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>UX/UI Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1697,214 +796,84 @@
                 <div class="container">
                     <div class="row gx-0 justify-content-center">
                         <div class="col">
-                            <div class="portfolio__active slick-initialized slick-slider">
-                                <button class="slick-prev slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-left"></i></button>
-
-
-                                <div class="slick-list draggable">
-                                    <div class="slick-track"
-                                         style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="-1" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-current slick-active"
-                                             style="width: 0px;" tabindex="0" data-slick-index="0"
-                                             aria-hidden="false">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="0">Animation
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="0">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="1" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="2" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="3" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="4" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="5" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="6" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="7" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Animation
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="8" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="9" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="10" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="11" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="12" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="13" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
+                            <div class="portfolio__active">
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>UX/UI Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Animation Management
+                                                System</a></h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
                                     </div>
                                 </div>
-                                <button class="slick-next slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-right"></i></button>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Apps Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1914,214 +883,84 @@
                 <div class="container">
                     <div class="row gx-0 justify-content-center">
                         <div class="col">
-                            <div class="portfolio__active slick-initialized slick-slider">
-                                <button class="slick-prev slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-left"></i></button>
-
-
-                                <div class="slick-list draggable">
-                                    <div class="slick-track"
-                                         style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);">
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="-1" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-current slick-active"
-                                             style="width: 0px;" tabindex="0" data-slick-index="0"
-                                             aria-hidden="false">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="0">Graphic
-                                                        Design Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="0">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="1" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="2" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="3" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="4" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="5" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide" style="width: 0px;" tabindex="-1"
-                                             data-slick-index="6" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="7" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Graphic
-                                                        Design Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="8" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Apps Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="9" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>UX/UI Design</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="10" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="11" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="12" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio__item slick-slide slick-cloned" style="width: 0px;"
-                                             tabindex="-1" data-slick-index="13" id="" aria-hidden="true">
-                                            <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio__overlay__content">
-                                                <span>Web Development</span>
-                                                <h4 class="title"><a href="portfolio-details.html" tabindex="-1">Banking
-                                                        Management System</a></h4>
-                                                <a href="portfolio-details.html" class="link" tabindex="-1">Case
-                                                    Study</a>
-                                            </div>
-                                        </div>
+                            <div class="portfolio__active">
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Graphic Design Management
+                                                System</a></h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
                                     </div>
                                 </div>
-                                <button class="slick-next slick-arrow" style=""><i
-                                        class="far fa-long-arrow-alt-right"></i></button>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Apps Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>UX/UI Design</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item">
+                                    <div class="portfolio__thumb">
+                                        <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio__overlay__content">
+                                        <span>Web Development</span>
+                                        <h4 class="title"><a href="portfolio-details.html">Banking Management System</a>
+                                        </h4>
+                                        <a href="portfolio-details.html" class="link">Case Study</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2169,9 +1008,9 @@
                             <span class="sub-title">05 - partners</span>
                             <h2 class="title">I proud to have collaborated with some awesome companies</h2>
                         </div>
-                        <p>I'm a bit of a digital product junky. Over the years, I've used hundreds of web and
-                            mobile apps in different industries and verticals. Eventually, I decided that it would
-                            be a fun challenge to try designing and building my own.</p>
+                        <p>I'm a bit of a digital product junky. Over the years, I've used hundreds of web and mobile
+                            apps in different industries and verticals. Eventually, I decided that it would be a fun
+                            challenge to try designing and building my own.</p>
                         <a href="contact.html" class="btn">Start a conversation</a>
                     </div>
                 </div>
@@ -2201,97 +1040,37 @@
                             <span class="sub-title">06 - Client Feedback</span>
                             <h2 class="title">Happy clients feedback</h2>
                         </div>
-                        <div class="testimonial__active slick-initialized slick-slider">
-
-
-                            <div class="slick-list draggable">
-                                <div class="slick-track"
-                                     style="opacity: 1; width: 2250px; transform: translate3d(-450px, 0px, 0px);">
-                                    <div class="testimonial__item slick-slide slick-cloned" style="width: 420px;"
-                                         tabindex="-1" data-slick-index="-1" id="" aria-hidden="true">
-                                        <div class="testimonial__icon">
-                                            <i class="fas fa-quote-left"></i>
-                                        </div>
-                                        <div class="testimonial__content">
-                                            <p>We are motivated by the satisfaction of our clients. Put your trust
-                                                in us &amp;share in our H.Spond Asset Management is made up of a
-                                                team of expert, committed and experienced people with a passion for
-                                                financial markets. Our goal is to achieve continuous.</p>
-                                            <div class="testimonial__avatar">
-                                                <span>Rasalina De Wiliamson</span>
-                                            </div>
-                                        </div>
+                        <div class="testimonial__active">
+                            <div class="testimonial__item">
+                                <div class="testimonial__icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="testimonial__content">
+                                    <p>We are motivated by the satisfaction of our clients. Put your trust in us &share
+                                        in our H.Spond Asset Management is made up of a team of expert, committed and
+                                        experienced people with a passion for financial markets. Our goal is to achieve
+                                        continuous.</p>
+                                    <div class="testimonial__avatar">
+                                        <span>Rasalina De Wiliamson</span>
                                     </div>
-                                    <div class="testimonial__item slick-slide slick-current slick-active"
-                                         style="width: 420px;" tabindex="0" data-slick-index="0"
-                                         aria-hidden="false">
-                                        <div class="testimonial__icon">
-                                            <i class="fas fa-quote-left"></i>
-                                        </div>
-                                        <div class="testimonial__content">
-                                            <p>We are motivated by the satisfaction of our clients. Put your trust
-                                                in us &amp;share in our H.Spond Asset Management is made up of a
-                                                team of expert, committed and experienced people with a passion for
-                                                financial markets. Our goal is to achieve continuous.</p>
-                                            <div class="testimonial__avatar">
-                                                <span>Rasalina De Wiliamson</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial__item slick-slide" style="width: 420px;" tabindex="-1"
-                                         data-slick-index="1" aria-hidden="true">
-                                        <div class="testimonial__icon">
-                                            <i class="fas fa-quote-left"></i>
-                                        </div>
-                                        <div class="testimonial__content">
-                                            <p>We are motivated by the satisfaction of our clients. Put your trust
-                                                in us &amp;share in our H.Spond Asset Management is made up of a
-                                                team of expert, committed and experienced people with a passion for
-                                                financial markets. Our goal is to achieve continuous.</p>
-                                            <div class="testimonial__avatar">
-                                                <span>Rasalina De Wiliamson</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial__item slick-slide slick-cloned" style="width: 420px;"
-                                         tabindex="-1" data-slick-index="2" id="" aria-hidden="true">
-                                        <div class="testimonial__icon">
-                                            <i class="fas fa-quote-left"></i>
-                                        </div>
-                                        <div class="testimonial__content">
-                                            <p>We are motivated by the satisfaction of our clients. Put your trust
-                                                in us &amp;share in our H.Spond Asset Management is made up of a
-                                                team of expert, committed and experienced people with a passion for
-                                                financial markets. Our goal is to achieve continuous.</p>
-                                            <div class="testimonial__avatar">
-                                                <span>Rasalina De Wiliamson</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial__item slick-slide slick-cloned" style="width: 420px;"
-                                         tabindex="-1" data-slick-index="3" id="" aria-hidden="true">
-                                        <div class="testimonial__icon">
-                                            <i class="fas fa-quote-left"></i>
-                                        </div>
-                                        <div class="testimonial__content">
-                                            <p>We are motivated by the satisfaction of our clients. Put your trust
-                                                in us &amp;share in our H.Spond Asset Management is made up of a
-                                                team of expert, committed and experienced people with a passion for
-                                                financial markets. Our goal is to achieve continuous.</p>
-                                            <div class="testimonial__avatar">
-                                                <span>Rasalina De Wiliamson</span>
-                                            </div>
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="testimonial__item">
+                                <div class="testimonial__icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="testimonial__content">
+                                    <p>We are motivated by the satisfaction of our clients. Put your trust in us &share
+                                        in our H.Spond Asset Management is made up of a team of expert, committed and
+                                        experienced people with a passion for financial markets. Our goal is to achieve
+                                        continuous.</p>
+                                    <div class="testimonial__avatar">
+                                        <span>Rasalina De Wiliamson</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="testimonial__arrow">
-                            <button class="slick-prev slick-arrow" style=""><i class="far fa-long-arrow-left"></i>
-                            </button>
-                            <button class="slick-next slick-arrow" style=""><i class="far fa-long-arrow-right"></i>
-                            </button>
-                        </div>
+                        <div class="testimonial__arrow"></div>
                     </div>
                 </div>
             </div>
@@ -2313,8 +1092,8 @@
                         </div>
                         <div class="blog__post__content">
                             <span class="date">13 january 2021</span>
-                            <h3 class="title"><a href="blog-details.html">Facebook design is dedicated to what's new
-                                    in design</a></h3>
+                            <h3 class="title"><a href="blog-details.html">Facebook design is dedicated to what's new in
+                                    design</a></h3>
                             <a href="blog-details.html" class="read__more">Read mORe</a>
                         </div>
                     </div>
@@ -2329,8 +1108,8 @@
                         </div>
                         <div class="blog__post__content">
                             <span class="date">13 january 2021</span>
-                            <h3 class="title"><a href="blog-details.html">Make communication Fast and
-                                    Effectively.</a></h3>
+                            <h3 class="title"><a href="blog-details.html">Make communication Fast and Effectively.</a>
+                            </h3>
                             <a href="blog-details.html" class="read__more">Read mORe</a>
                         </div>
                     </div>
@@ -2345,8 +1124,8 @@
                         </div>
                         <div class="blog__post__content">
                             <span class="date">13 january 2021</span>
-                            <h3 class="title"><a href="blog-details.html">How to increase your productivity at work
-                                    - 2021</a></h3>
+                            <h3 class="title"><a href="blog-details.html">How to increase your productivity at work -
+                                    2021</a></h3>
                             <a href="blog-details.html" class="read__more">Read mORe</a>
                         </div>
                     </div>
@@ -2391,4 +1170,5 @@
         </div>
     </section>
     <!-- contact-area-end -->
+
 @endsection
