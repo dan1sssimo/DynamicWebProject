@@ -5,7 +5,7 @@ $(function(){
 
         Swal.fire({
             title: 'Are you sure?',
-            text: "Delete This Data?",
+            text: "Delete This Image?",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
@@ -16,7 +16,7 @@ $(function(){
                 window.location.href = link
                 Swal.fire(
                     'Deleted!',
-                    'Your file has been deleted.',
+                    'Your image has been deleted.',
                     'success'
                 )
             }
