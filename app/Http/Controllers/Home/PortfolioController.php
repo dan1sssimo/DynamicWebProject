@@ -50,4 +50,52 @@ class PortfolioController extends Controller
         );
         return redirect()->route('all.portfolio')->with($notification);
     }
+
+    public function EditPortfolio($id)
+    {
+        $portfolio = Portfolio::findOrFail($id);
+        return view('admin.portfolio.portfolio_edit', compact('portfolio'));
+    }
+
+    public function UpdatePortfolio(Request $request)
+    {
+        $portfolio_id = $request->id;
+
+        if ($request->file('portfolio_image')) {
+            $image = $request->file('portfolio_image');
+            $name_gen = hexdec(uniqid()) . '.' . $image->getClientOriginalExtension();
+            Image::make($image)->resize(1020, 519)->save('upload/portfolio/' . $name_gen);
+            $save_url = 'upload/portfolio/' . $name_gen;
+            Portfolio::findOrFail($portfolio_id)->update([
+                'portfolio_name' => $request->portfolio_name,
+                'portfolio_title' => $request->portfolio_title,
+                'portfolio_description' => $request->portfolio_description,
+                'portfolio_image' => $save_url,
+            ]);
+        } else {
+            Portfolio::findOrFail($portfolio_id)->update([
+                'portfolio_name' => $request->portfolio_name,
+                'portfolio_title' => $request->portfolio_title,
+                'portfolio_description' => $request->portfolio_description,
+            ]);
+        }
+        $notification = array(
+            'message' => 'Portfolio Data Updated Successfully',
+            'alert-type' => 'success'
+        );
+        return redirect()->route('all.portfolio')->with($notification);
+    }
+
+    public function DeletePortfolio($id)
+    {
+        $portfolio = Portfolio::findOrFail($id);
+        $img = $portfolio->portfolio_image;
+        unlink($img);
+        Portfolio::findOrFail($id)->delete();
+        $notification = array(
+            'message' => 'Portfolio Deleted Successfully',
+            'alert-type' => 'success'
+        );
+        return redirect()->route('all.portfolio')->with($notification);
+    }
 }

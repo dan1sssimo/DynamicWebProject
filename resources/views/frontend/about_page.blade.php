@@ -68,25 +68,34 @@
                         <div class="about__info__wrap">
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button"
-                                            role="tab" aria-controls="about" aria-selected="true">About</button>
+                                    <button class="nav-link active" id="about-tab" data-bs-toggle="tab"
+                                            data-bs-target="#about" type="button"
+                                            role="tab" aria-controls="about" aria-selected="true">About
+                                    </button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills" type="button"
-                                            role="tab" aria-controls="skills" aria-selected="false">Skills</button>
+                                    <button class="nav-link" id="skills-tab" data-bs-toggle="tab"
+                                            data-bs-target="#skills" type="button"
+                                            role="tab" aria-controls="skills" aria-selected="false">Skills
+                                    </button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="awards-tab" data-bs-toggle="tab" data-bs-target="#awards" type="button"
-                                            role="tab" aria-controls="awards" aria-selected="false">awards</button>
+                                    <button class="nav-link" id="awards-tab" data-bs-toggle="tab"
+                                            data-bs-target="#awards" type="button"
+                                            role="tab" aria-controls="awards" aria-selected="false">awards
+                                    </button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button"
-                                            role="tab" aria-controls="education" aria-selected="false">education</button>
+                                    <button class="nav-link" id="education-tab" data-bs-toggle="tab"
+                                            data-bs-target="#education" type="button"
+                                            role="tab" aria-controls="education" aria-selected="false">education
+                                    </button>
                                 </li>
                             </ul>
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
-                                    <p class="desc">{{$aboutPage->title}}</p>
+                                <div class="tab-pane fade show active" id="about" role="tabpanel"
+                                     aria-labelledby="about-tab">
+                                    <p class="desc">{!!  $aboutPage->long_description!!}</p>
                                 </div>
                                 <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
                                     <div class="about__skill__wrap">
@@ -95,7 +104,9 @@
                                                 <div class="about__skill__item">
                                                     <h5 class="title">Communication</h5>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><span class="percentage">70%</span></div>
+                                                        <div class="progress-bar" role="progressbar" style="width: 70%;"
+                                                             aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="percentage">70%</span></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -103,7 +114,9 @@
                                                 <div class="about__skill__item">
                                                     <h5 class="title">Brain Storming</h5>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span class="percentage">90%</span></div>
+                                                        <div class="progress-bar" role="progressbar" style="width: 90%;"
+                                                             aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="percentage">90%</span></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -111,7 +124,9 @@
                                                 <div class="about__skill__item">
                                                     <h5 class="title">Resourcefulness</h5>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><span class="percentage">50%</span></div>
+                                                        <div class="progress-bar" role="progressbar" style="width: 50%;"
+                                                             aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="percentage">50%</span></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -119,7 +134,9 @@
                                                 <div class="about__skill__item">
                                                     <h5 class="title">Figma</h5>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><span class="percentage">65%</span></div>
+                                                        <div class="progress-bar" role="progressbar" style="width: 65%;"
+                                                             aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="percentage">65%</span></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -127,7 +144,9 @@
                                                 <div class="about__skill__item">
                                                     <h5 class="title">Analytical Abilities</h5>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span class="percentage">80%</span></div>
+                                                        <div class="progress-bar" role="progressbar" style="width: 80%;"
+                                                             aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="percentage">80%</span></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -135,7 +154,9 @@
                                                 <div class="about__skill__item">
                                                     <h5 class="title">Skeatch</h5>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"><span class="percentage">45%</span></div>
+                                                        <div class="progress-bar" role="progressbar" style="width: 45%;"
+                                                             aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="percentage">45%</span></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -143,7 +164,9 @@
                                                 <div class="about__skill__item">
                                                     <h5 class="title">User Research</h5>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"><span class="percentage">55%</span></div>
+                                                        <div class="progress-bar" role="progressbar" style="width: 55%;"
+                                                             aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="percentage">55%</span></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -151,7 +174,9 @@
                                                 <div class="about__skill__item">
                                                     <h5 class="title">Adobe Tools</h5>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percentage">85%</span></div>
+                                                        <div class="progress-bar" role="progressbar" style="width: 85%;"
+                                                             aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="percentage">85%</span></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -168,7 +193,9 @@
                                                     </div>
                                                     <div class="award__content">
                                                         <h5 class="title">Best ux designer award in 2002</h5>
-                                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                                                        <p>There are many variations of passages of Lorem Ipsum
+                                                            available, but the majority have suffered alteration in some
+                                                            form, by injected humour,</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -179,7 +206,9 @@
                                                     </div>
                                                     <div class="award__content">
                                                         <h5 class="title">BBA final examination 2001</h5>
-                                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                                                        <p>There are many variations of passages of Lorem Ipsum
+                                                            available, but the majority have suffered alteration in some
+                                                            form, by injected humour,</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -190,7 +219,9 @@
                                                     </div>
                                                     <div class="award__content">
                                                         <h5 class="title">User research award 2020</h5>
-                                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                                                        <p>There are many variations of passages of Lorem Ipsum
+                                                            available, but the majority have suffered alteration in some
+                                                            form, by injected humour,</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -201,21 +232,27 @@
                                                     </div>
                                                     <div class="award__content">
                                                         <h5 class="title">Dsigning award 2021</h5>
-                                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                                                        <p>There are many variations of passages of Lorem Ipsum
+                                                            available, but the majority have suffered alteration in some
+                                                            form, by injected humour,</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                                <div class="tab-pane fade" id="education" role="tabpanel"
+                                     aria-labelledby="education-tab">
                                     <div class="about__education__wrap">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="about__education__item">
                                                     <h3 class="title">DPR Engineering Dhaka University</h3>
                                                     <span class="date">2004 – 2016</span>
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                                                    <p>There are many variations of passages of Lorem Ipsum available,
+                                                        but the majority have suffered alteration in some form, by
+                                                        injected humour,There are many variations of passages of Lorem
+                                                        Ipsum available, but the majority have suffered
                                                         alteration in some form, by injected humour.</p>
                                                 </div>
                                             </div>
@@ -223,21 +260,30 @@
                                                 <div class="about__education__item">
                                                     <h3 class="title">Product Designer at google</h3>
                                                     <span class="date">2021 – Present</span>
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,There are many variations of passages of Lorem Ipsum available.</p>
+                                                    <p>There are many variations of passages of Lorem Ipsum available,
+                                                        but the majority have suffered alteration in some form, by
+                                                        injected humour,There are many variations of passages of Lorem
+                                                        Ipsum available.</p>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="about__education__item">
                                                     <h3 class="title">Computer Science - england</h3>
                                                     <span class="date">2008 – 2012</span>
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,There are many variations of passages of Lorem Ipsum available.</p>
+                                                    <p>There are many variations of passages of Lorem Ipsum available,
+                                                        but the majority have suffered alteration in some form, by
+                                                        injected humour,There are many variations of passages of Lorem
+                                                        Ipsum available.</p>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="about__education__item">
                                                     <h3 class="title">Pro product design with udemey</h3>
                                                     <span class="date">2016 - 2020</span>
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                                                    <p>There are many variations of passages of Lorem Ipsum available,
+                                                        but the majority have suffered alteration in some form, by
+                                                        injected humour,There are many variations of passages of Lorem
+                                                        Ipsum available, but the majority have suffered
                                                         alteration in some form, by injected humour.</p>
                                                 </div>
                                             </div>
@@ -272,8 +318,10 @@
                                 </div>
                                 <div class="services__style__two__content">
                                     <h3 class="title"><a href="services-details.html">Business Strategy</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
-                                    <a href="services-details.html" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the
+                                        majority.</p>
+                                    <a href="services-details.html" class="services__btn"><i
+                                            class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -284,8 +332,10 @@
                                 </div>
                                 <div class="services__style__two__content">
                                     <h3 class="title"><a href="services-details.html">Visual Design</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior.Strategy is a forward-looking plan.</p>
-                                    <a href="services-details.html" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <p>Strategy is a forward-looking plan for your brand’s behavior.Strategy is a
+                                        forward-looking plan.</p>
+                                    <a href="services-details.html" class="services__btn"><i
+                                            class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -296,8 +346,10 @@
                                 </div>
                                 <div class="services__style__two__content">
                                     <h3 class="title"><a href="services-details.html">Product Design</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
-                                    <a href="services-details.html" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the
+                                        majority.</p>
+                                    <a href="services-details.html" class="services__btn"><i
+                                            class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -308,8 +360,10 @@
                                 </div>
                                 <div class="services__style__two__content">
                                     <h3 class="title"><a href="services-details.html">Animation</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior.Strategy is a forward-looking plan.</p>
-                                    <a href="services-details.html" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <p>Strategy is a forward-looking plan for your brand’s behavior.Strategy is a
+                                        forward-looking plan.</p>
+                                    <a href="services-details.html" class="services__btn"><i
+                                            class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -320,8 +374,10 @@
                                 </div>
                                 <div class="services__style__two__content">
                                     <h3 class="title"><a href="services-details.html">Marketing</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
-                                    <a href="services-details.html" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the
+                                        majority.</p>
+                                    <a href="services-details.html" class="services__btn"><i
+                                            class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -332,8 +388,10 @@
                                 </div>
                                 <div class="services__style__two__content">
                                     <h3 class="title"><a href="services-details.html">Brand strategy</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior.Strategy is a forward-looking plan.</p>
-                                    <a href="services-details.html" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <p>Strategy is a forward-looking plan for your brand’s behavior.Strategy is a
+                                        forward-looking plan.</p>
+                                    <a href="services-details.html" class="services__btn"><i
+                                            class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -344,8 +402,10 @@
                                 </div>
                                 <div class="services__style__two__content">
                                     <h3 class="title"><a href="services-details.html">Graphic Design</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
-                                    <a href="services-details.html" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the
+                                        majority.</p>
+                                    <a href="services-details.html" class="services__btn"><i
+                                            class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -356,8 +416,10 @@
                                 </div>
                                 <div class="services__style__two__content">
                                     <h3 class="title"><a href="services-details.html">Visual Design</a></h3>
-                                    <p>Strategy is a forward-looking plan for your brand’s behavior.Strategy is a forward-looking plan.</p>
-                                    <a href="services-details.html" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <p>Strategy is a forward-looking plan for your brand’s behavior.Strategy is a
+                                        forward-looking plan.</p>
+                                    <a href="services-details.html" class="services__btn"><i
+                                            class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -383,7 +445,10 @@
                                         <i class="fas fa-quote-left"></i>
                                     </div>
                                     <div class="testimonial__content">
-                                        <p>We are motivated by the satisfaction of our clients. Put your trust in us &share in our H.Spond Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous.</p>
+                                        <p>We are motivated by the satisfaction of our clients. Put your trust in us
+                                            &share in our H.Spond Asset Management is made up of a team of expert,
+                                            committed and experienced people with a passion for financial markets. Our
+                                            goal is to achieve continuous.</p>
                                         <div class="testimonial__avatar">
                                             <span>WPBakery/ uSA</span>
                                             <div class="testi__avatar__img">
@@ -397,7 +462,10 @@
                                         <i class="fas fa-quote-left"></i>
                                     </div>
                                     <div class="testimonial__content">
-                                        <p>We are motivated by the satisfaction of our clients. Put your trust in us &share in our H.Spond Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous.</p>
+                                        <p>We are motivated by the satisfaction of our clients. Put your trust in us
+                                            &share in our H.Spond Asset Management is made up of a team of expert,
+                                            committed and experienced people with a passion for financial markets. Our
+                                            goal is to achieve continuous.</p>
                                         <div class="testimonial__avatar">
                                             <span>Adobe Photoshop</span>
                                             <div class="testi__avatar__img">
@@ -439,7 +507,8 @@
                             </div>
                             <div class="blog__post__content">
                                 <span class="date">13 january 2021</span>
-                                <h3 class="title"><a href="blog-details.html">Facebook design is dedicated to what's new in design</a></h3>
+                                <h3 class="title"><a href="blog-details.html">Facebook design is dedicated to what's new
+                                        in design</a></h3>
                                 <a href="blog-details.html" class="read__more">Read mORe</a>
                             </div>
                         </div>
@@ -454,7 +523,8 @@
                             </div>
                             <div class="blog__post__content">
                                 <span class="date">13 january 2021</span>
-                                <h3 class="title"><a href="blog-details.html">Make communication Fast and Effectively.</a></h3>
+                                <h3 class="title"><a href="blog-details.html">Make communication Fast and
+                                        Effectively.</a></h3>
                                 <a href="blog-details.html" class="read__more">Read mORe</a>
                             </div>
                         </div>
@@ -469,7 +539,8 @@
                             </div>
                             <div class="blog__post__content">
                                 <span class="date">13 january 2021</span>
-                                <h3 class="title"><a href="blog-details.html">How to increase your productivity at work - 2021</a></h3>
+                                <h3 class="title"><a href="blog-details.html">How to increase your productivity at work
+                                        - 2021</a></h3>
                                 <a href="blog-details.html" class="read__more">Read mORe</a>
                             </div>
                         </div>
@@ -493,7 +564,8 @@
                                 <h2 class="title">Any questions? Feel free <br> to contact</h2>
                             </div>
                             <div class="homeContact__content">
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form</p>
                                 <h2 class="mail"><a href="mailto:Info@webmail.com">Info@webmail.com</a></h2>
                             </div>
                         </div>
