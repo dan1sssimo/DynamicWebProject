@@ -6,6 +6,7 @@ use App\Http\Controllers\Home\PortfolioController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Home\HomeSliderController;
+use App\Http\Controllers\Home\BlogController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -81,8 +82,16 @@ Route::controller(BlogCategoryController::class)->group(function () {
     Route::get('/edit/blog/category/{id}', 'EditBlogCategory')->name('edit.blog.category');
     Route::post('/update/blog/category', 'UpdateBlogCategory')->name('update.blog.category');
     Route::get('/delete/blog/category/{id}', 'DeleteBlogCategory')->name('delete.blog.category');
+});
 
-
+// Blog All Route
+Route::controller(BlogController::class)->group(function () {
+    Route::get('all/blog', 'AllBlog')->name('all.blog');
+    Route::get('/add/blog', 'AddBlog')->name('add.blog');
+    Route::post('/store/blog', 'StoreBlog')->name('store.blog');
+    Route::get('/edit/blog/{id}', 'EditBlog')->name('edit.blog');
+    Route::post('/update/blog', 'UpdateBlog')->name('update.blog');
+    Route::get('/delete/blog/{id}', 'DeleteBlog')->name('delete.blog');
 });
 
 require __DIR__ . '/auth.php';
