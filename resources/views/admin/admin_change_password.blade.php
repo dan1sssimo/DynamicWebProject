@@ -6,7 +6,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Change Password</h4><br><br>
+                            <h4 class="card-title mb-5">Change Password</h4>
                             @if(count($errors))
                                 @foreach($errors->all() as $error)
                                     <p class="alert alert-danger alert-dismissible fade show">{{$error}}</p>
@@ -36,7 +36,7 @@
                                                value="" id="confirm_password">
                                     </div>
                                 </div>
-                                <input type="submit" class="btn btn-info waves-effect waves-light"
+                                <input type="submit" class="btn btn-info waves-effect waves-light mt-5 "
                                        value="Change Password">
                             </form>
                         </div>

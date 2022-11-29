@@ -7,7 +7,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Blog Category Edit</h4>
+                            <h4 class="card-title mb-5">Blog Category Edit</h4>
                             <form method="post" action="{{route('update.blog.category')}}">
                                 @csrf
 
@@ -26,7 +26,7 @@
                                         @enderror
                                     </div>
                                 </div>
-                                <input type="submit" class="btn btn-info waves-effect waves-light"
+                                <input type="submit" class="btn btn-info waves-effect waves-light mt-5"
                                        value="Update Blog Category Data">
                             </form>
                         </div>

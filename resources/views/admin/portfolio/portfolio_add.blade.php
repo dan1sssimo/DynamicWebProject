@@ -7,10 +7,9 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Portfolio Page</h4>
+                            <h4 class="card-title mb-5">Portfolio Page</h4>
                             <form method="post" action="{{route('store.portfolio')}}" enctype="multipart/form-data">
                                 @csrf
-
                                 <div class="row mb-3">
                                     <label for="example-text-input" class="col-sm-2 col-form-label">Portfolio
                                         Name</label>
@@ -23,7 +22,6 @@
                                         @enderror
                                     </div>
                                 </div>
-
                                 <div class="row mb-3">
                                     <label for="example-text-input" class="col-sm-2 col-form-label">Portfolio
                                         Title</label>
@@ -36,7 +34,6 @@
                                         @enderror
                                     </div>
                                 </div>
-
                                 <div class="row mb-3">
                                     <label for="example-text-input" class="col-sm-2 col-form-label">Portfolio
                                         Description</label>
@@ -47,7 +44,6 @@
                                         @enderror
                                     </div>
                                 </div>
-
                                 <div class="row mb-3">
                                     <label for="example-text-input" class="col-sm-2 col-form-label">Portfolio
                                         Image</label>
@@ -57,7 +53,6 @@
                                                id="image">
                                     </div>
                                 </div>
-
                                 <div class="row mb-3">
                                     <label for="example-text-input" class="col-sm-2 col-form-label"> </label>
                                     <div class="col-sm-10">
@@ -66,8 +61,7 @@
                                              alt="Card image cap">
                                     </div>
                                 </div>
-
-                                <input type="submit" class="btn btn-info waves-effect waves-light"
+                                <input type="submit" class="btn btn-info waves-effect waves-light mt-5"
                                        value="Insert Portfolio Data">
                             </form>
                         </div>

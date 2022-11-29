@@ -17,7 +17,7 @@
                     <div class="card">
                         <div class="card-body">
 
-                            <h4 class="card-title">Edit Blog Page </h4>
+                            <h4 class="card-title mb-5">Edit Blog Page </h4>
 
                             <form method="post" action="{{ route('update.blog') }}" enctype="multipart/form-data">
                                 @csrf
@@ -78,7 +78,7 @@
                                     </div>
                                 </div>
                                 <!-- end row -->
-                                <input type="submit" class="btn btn-info waves-effect waves-light" value="Update Blog Data">
+                                <input type="submit" class="btn btn-info waves-effect waves-light mt-5" value="Update Blog Data">
                             </form>
                         </div>
                     </div>

@@ -7,7 +7,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title pb-5">Update Multi Image</h4>
+                            <h4 class="card-title mb-5">Update Multi Image</h4>
                             <form method="post" action="{{route('update.multi.image')}}" enctype="multipart/form-data">
                                 @csrf
                                     <input type="hidden" name="id" value="{{$multiImage->id}}">
@@ -28,7 +28,7 @@
                                     </div>
                                 </div>
 
-                                <input type="submit" class="btn btn-info waves-effect waves-light"
+                                <input type="submit" class="btn btn-info waves-effect waves-light mt-5"
                                        value="Update Multi Image">
                             </form>
                         </div>

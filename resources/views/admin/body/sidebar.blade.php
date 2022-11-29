@@ -9,16 +9,16 @@
                 <li class="menu-title">Menu</li>
 
                 <li>
-                    <a href="#" class="waves-effect">
+                    <a href="{{route('dashboard')}}" class="waves-effect">
                         <i class="ri-dashboard-line"></i><span
-                            class="badge rounded-pill bg-success float-end">3</span>
+                            class="badge rounded-pill bg-success float-end">1</span>
                         <span>Dashboard</span>
                     </a>
                 </li>
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="ri-mail-send-line"></i>
+                        <i class="ri-code-fill"></i>
                         <span>Home Slide Setup</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -28,7 +28,7 @@
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="ri-mail-send-line"></i>
+                        <i class="ri-account-box-fill"></i>
                         <span>About Page Setup</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -63,7 +63,7 @@
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="ri-mail-send-line"></i>
-                        <span>Blog Page</span>
+                        <span>Blog Page Setup</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="{{route('all.blog')}}">All Blog</a></li>
@@ -81,31 +81,16 @@
                     </ul>
                 </li>
 
-                <li class="menu-title">Pages</li>
-
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="ri-account-circle-line"></i>
-                        <span>Authentication</span>
+                        <i class="ri-mail-send-line"></i>
+                        <span>Contact Message</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="{{--{{route('login')}}--}}">Login</a></li>
-                        <li><a href="{{--{{route('register')}}--}}">Register</a></li>
-                        <li><a href="#">Recover Password</a></li>
+                        <li><a href="{{route('contact.message')}}">Contact Message</a></li>
                     </ul>
                 </li>
 
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="ri-profile-line"></i>
-                        <span>Utility</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="{{--{{route('home')}}--}}">Starter Page</a></li>
-                        <li><a href="#">Error 404</a></li>
-                        <li><a href="#">Error 500</a></li>
-                    </ul>
-                </li>
             </ul>
         </div>
         <!-- Sidebar -->

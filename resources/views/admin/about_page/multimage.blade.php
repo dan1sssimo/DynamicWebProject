@@ -7,7 +7,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title pb-5">Add Multi Image</h4>
+                            <h4 class="card-title mb-5">Add Multi Image</h4>
                             <form method="post" action="{{route('store.multi.image')}}" enctype="multipart/form-data">
                                 @csrf
 
@@ -28,7 +28,7 @@
                                     </div>
                                 </div>
 
-                                <input type="submit" class="btn btn-info waves-effect waves-light"
+                                <input type="submit" class="btn btn-info waves-effect waves-light mt-5"
                                        value="Add Multi Image">
                             </form>
                         </div>

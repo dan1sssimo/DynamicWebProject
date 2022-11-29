@@ -7,7 +7,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Add Blog
+                            <h4 class="card-title mb-5">Add Blog
                                 Category Page</h4>
                             <form method="post" action="{{route('store.blog.category')}}" >
                                 @csrf
@@ -25,7 +25,7 @@
                                     </div>
                                 </div>
 
-                                <input type="submit" class="btn btn-info waves-effect waves-light"
+                                <input type="submit" class="btn btn-info waves-effect waves-light mt-5"
                                        value="Insert Blog Category Data">
                             </form>
                         </div>

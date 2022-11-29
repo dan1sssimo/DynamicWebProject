@@ -7,7 +7,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">About Page</h4>
+                            <h4 class="card-title mb-5">About Page</h4>
                             <form method="post" action="{{route('update.about')}}" enctype="multipart/form-data">
                                 @csrf
                                 <input type="hidden" name="id" value="{{$aboutPage->id}}">
@@ -57,7 +57,7 @@
                                     </div>
                                 </div>
 
-                                <input type="submit" class="btn btn-info waves-effect waves-light"
+                                <input type="submit" class="btn btn-info waves-effect waves-light mt-5"
                                        value="Update About">
                             </form>
                         </div>
