@@ -98,7 +98,10 @@
 
 <script src="{{ asset('backend/assets/js/code.js') }}"></script>
 
+<script src="{{ asset('backend/assets/js/validate.min.js') }}"></script>
+
 <script src="https://cdn.jsdelivr.net/bootstrap.tagsinput/0.8.0/bootstrap-tagsinput.min.js"></script>
+
 <script>
     @if(Session::has('message'))
     let type = "{{ Session::get('alert-type','info') }}"

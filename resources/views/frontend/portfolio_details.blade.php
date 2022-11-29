@@ -1,5 +1,8 @@
 @extends('frontend.main_master')
 @section('main')
+    @section('title')
+        Portfolio Details | Danylo Savchenko Website
+    @endsection
     <!-- breadcrumb-area -->
     <section class="breadcrumb__wrap">
         <div class="container custom-container">

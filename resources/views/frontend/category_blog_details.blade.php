@@ -1,5 +1,8 @@
 @extends('frontend.main_master')
 @section('main')
+    @section('title')
+        Category Blog Details | Danylo Savchenko Website
+    @endsection
     <main>
         <!-- breadcrumb-area -->
         <section class="breadcrumb__wrap">

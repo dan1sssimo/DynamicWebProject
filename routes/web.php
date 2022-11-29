@@ -24,7 +24,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('frontend.index');
-});
+})->name('home');
+
 
 Route::get('/dashboard', function () {
     return view('admin.index');
@@ -37,7 +38,7 @@ Route::middleware('auth')->group(function () {
 });
 
 // Admin All Route
-Route::controller(AdminController::class)->group(function () {
+Route::middleware(['auth'])->controller(AdminController::class)->group(function () {
     Route::get('/admin/logout', 'destroy')->name('admin.logout');
     Route::get('/admin/profile', 'Profile')->name('admin.profile');
     Route::get('/edit/profile', 'EditProfile')->name('edit.profile');
@@ -74,6 +75,7 @@ Route::controller(PortfolioController::class)->group(function () {
     Route::post('/update/portfolio', 'UpdatePortfolio')->name('update.portfolio');
     Route::get('/delete/portfolio/{id}', 'DeletePortfolio')->name('delete.portfolio');
     Route::get('/portfolio/details/{id}', 'PortfolioDetails')->name('portfolio.details');
+    Route::get('/portfolio', 'HomePortfolio')->name('home.portfolio');
 });
 
 // Blog Category All Route

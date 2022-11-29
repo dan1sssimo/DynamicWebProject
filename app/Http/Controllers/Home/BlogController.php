@@ -26,9 +26,6 @@ class BlogController extends Controller
 
     public function StoreBlog(Request $request)
     {
-        $request->validate([
-            'blog_title' => 'required',
-        ]);
         if ($request->file('blog_image')) {
             $image = $request->file('blog_image');
             $name_gen = hexdec(uniqid()) . '.' . $image->getClientOriginalExtension();

@@ -2,7 +2,7 @@
 @section('main')
 
     @section('title')
-        Contact | EasyLearning Website
+        Contact | Danylo Savchenko Website
     @endsection
     <main>
         <!-- breadcrumb-area -->
