@@ -31,6 +31,9 @@
                     <div class="mobile__menu">
                         <nav class="menu__box">
                             <div class="close__btn"><i class="fal fa-times"></i></div>
+                            <div class="nav-logo">
+                                <a href="{{route('home')}}" class="logo__black"><img src="{{asset('frontend/assets/img/logo/logo_black.png')}}" alt=""></a>
+                            </div>
                             <div class="menu__outer">
                                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                             </div>

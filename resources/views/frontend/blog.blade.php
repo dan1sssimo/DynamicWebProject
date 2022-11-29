@@ -42,22 +42,30 @@
                         @foreach($allBlogs as $item)
                             <div class="standard__blog__post">
                                 <div class="standard__blog__thumb">
-                                    <a href="{{ route('blog.details',$item->id) }}"><img src="{{ asset($item->blog_image) }}" alt=""></a>
-                                    <a href="{{ route('blog.details',$item->id) }}" class="blog__link"><i class="far fa-long-arrow-right"></i></a>
+                                    <a href="{{ route('blog.details',$item->id) }}"><img
+                                            src="{{ asset($item->blog_image) }}" alt=""></a>
+                                    <a href="{{ route('blog.details',$item->id) }}" class="blog__link"><i
+                                            class="far fa-long-arrow-right"></i></a>
                                 </div>
                                 <div class="standard__blog__content">
                                     <div class="blog__post__avatar">
                                         <div class="thumb"><img src="{{ asset($item->blog_image) }}" alt=""></div>
                                         <span class="post__by">By : <a href="#">Danylo Savchenko</a></span>
                                     </div>
-                                    <h2 class="title"><a href="{{ route('blog.details',$item->id) }}">{{$item->blog_title}}</a></h2>
+                                    <h2 class="title"><a
+                                            href="{{ route('blog.details',$item->id) }}">{{$item->blog_title}}</a></h2>
                                     <p>{!! Str::limit($item->blog_description, 200) !!}  </p>
                                     <ul class="blog__post__meta">
-                                        <li><i class="fal fa-calendar-alt"></i> {{ Carbon\Carbon::parse($item->created_at)->diffForHumans() }}</li>
+                                        <li>
+                                            <i class="fal fa-calendar-alt"></i> {{ Carbon\Carbon::parse($item->created_at)->diffForHumans() }}
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                         @endforeach
+                            <div class="pagination-wrap">
+                                    {{$allBlogs->links('vendor.pagination.custom')}}
+                            </div>
                     </div>
                     <div class="col-lg-4">
                         <aside class="blog__sidebar">
@@ -67,10 +75,12 @@
                                     @foreach($allBlogs as $all)
                                         <li class="rc__post__item">
                                             <div class="rc__post__thumb">
-                                                <a href="{{route('blog.details',$all->id)}}"><img src="{{ asset($all->blog_image) }} " alt=""></a>
+                                                <a href="{{route('blog.details',$all->id)}}"><img
+                                                        src="{{ asset($all->blog_image) }} " alt=""></a>
                                             </div>
                                             <div class="rc__post__content">
-                                                <h5 class="title"><a href="{{route('blog.details',$all->id)}}">{{ $all->blog_title }}
+                                                <h5 class="title"><a
+                                                        href="{{route('blog.details',$all->id)}}">{{ $all->blog_title }}
                                                     </a></h5>
                                                 <span class="post-date"><i class="fal fa-calendar-alt"></i> {{ Carbon\Carbon::parse($all->created_at)->diffForHumans() }} </span>
                                             </div>
@@ -82,7 +92,9 @@
                                 <h4 class="widget-title">Categories</h4>
                                 <ul class="sidebar__cat">
                                     @foreach($categories as $category)
-                                        <li class="sidebar__cat__item"><a href="{{ route('category.blog',$category->id) }}">{{ $category->blog_category  }}  </a></li>
+                                        <li class="sidebar__cat__item"><a
+                                                href="{{ route('category.blog',$category->id) }}">{{ $category->blog_category  }}  </a>
+                                        </li>
                                     @endforeach
                                 </ul>
                             </div>
