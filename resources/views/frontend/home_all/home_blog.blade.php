@@ -12,7 +12,7 @@
                                 <img src="{{asset($blog->blog_image)}}" alt="">
                             </a>
                             <div class="blog__post__tags">
-                                <a href="blog.html">{{$blog['category']['blog_category']}}</a>
+                                <a href="{{route('category.blog',$blog['category']->id)}}">{{$blog['category']['blog_category']}}</a>
                             </div>
                         </div>
                         <div class="blog__post__content">
@@ -26,7 +26,7 @@
             @endforeach
         </div>
         <div class="blog__button text-center">
-            <a href="blog.html" class="btn">more blog</a>
+            <a href="{{route('home.blog')}}" class="btn">more blog</a>
         </div>
     </div>
 </section>

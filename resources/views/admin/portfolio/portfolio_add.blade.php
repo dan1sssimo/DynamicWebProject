@@ -46,6 +46,15 @@
                                 </div>
                                 <div class="row mb-3">
                                     <label for="example-text-input" class="col-sm-2 col-form-label">Portfolio
+                                        URL</label>
+                                    <div class="col-sm-10">
+                                        <input name="portfolio_url" class="form-control" type="text"
+                                               placeholder="Artisanal kale"
+                                               id="example-text-input">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="example-text-input" class="col-sm-2 col-form-label">Portfolio
                                         Image</label>
                                     <div class="col-sm-10">
                                         <input name="portfolio_image" class="form-control" type="file"

@@ -48,6 +48,7 @@ class PortfolioController extends Controller
             'portfolio_title' => $request->portfolio_title,
             'portfolio_description' => $request->portfolio_description,
             'portfolio_image' => $save_url,
+            'portfolio_url' => $request->portfolio_url,
             'created_at' => Carbon::now(),
         ]);
 
@@ -78,12 +79,14 @@ class PortfolioController extends Controller
                 'portfolio_title' => $request->portfolio_title,
                 'portfolio_description' => $request->portfolio_description,
                 'portfolio_image' => $save_url,
+                'portfolio_url' => $request->portfolio_url,
             ]);
         } else {
             Portfolio::findOrFail($portfolio_id)->update([
                 'portfolio_name' => $request->portfolio_name,
                 'portfolio_title' => $request->portfolio_title,
                 'portfolio_description' => $request->portfolio_description,
+                'portfolio_url' => $request->portfolio_url,
             ]);
         }
         $notification = array(

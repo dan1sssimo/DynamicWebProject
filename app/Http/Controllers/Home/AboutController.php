@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Home;
 
 use App\Http\Controllers\Controller;
 use App\Models\About;
+use App\Models\Blog;
 use App\Models\MultiImage;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -53,7 +54,8 @@ class AboutController extends Controller
     public function HomeAbout()
     {
         $aboutPage = About::find(1);
-        return view('frontend.about_page', compact('aboutPage'));
+        $blogs = Blog::latest()->limit(3)->get();
+        return view('frontend.about_page', compact('aboutPage', 'blogs'));
     }
 
     public function AboutMultiImage()

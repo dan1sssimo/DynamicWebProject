@@ -277,13 +277,13 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6 order-0 order-lg-2">
                     <ul class="testimonial__avatar__img">
-                        <li><img src="assets/img/images/testi_img01.png" alt=""></li>
-                        <li><img src="assets/img/images/testi_img02.png" alt=""></li>
-                        <li><img src="assets/img/images/testi_img03.png" alt=""></li>
-                        <li><img src="assets/img/images/testi_img04.png" alt=""></li>
-                        <li><img src="assets/img/images/testi_img05.png" alt=""></li>
-                        <li><img src="assets/img/images/testi_img06.png" alt=""></li>
-                        <li><img src="assets/img/images/testi_img07.png" alt=""></li>
+                        <li><img src=" {{asset('frontend/assets/img/images/testi_img01.png')}}" alt=""></li>
+                        <li><img src=" {{asset('frontend/assets/img/images/testi_img02.png')}}" alt=""></li>
+                        <li><img src=" {{asset('frontend/assets/img/images/testi_img03.png')}}" alt=""></li>
+                        <li><img src=" {{asset('frontend/assets/img/images/testi_img04.png')}}" alt=""></li>
+                        <li><img src=" {{asset('frontend/assets/img/images/testi_img05.png')}}" alt=""></li>
+                        <li><img src=" {{asset('frontend/assets/img/images/testi_img06.png')}}" alt=""></li>
+                        <li><img src=" {{asset('frontend/assets/img/images/testi_img07.png')}}" alt=""></li>
                     </ul>
                 </div>
                 <div class="col-xl-5 col-lg-6">
@@ -303,7 +303,7 @@
                                         experienced people with a passion for financial markets. Our goal is to achieve
                                         continuous.</p>
                                     <div class="testimonial__avatar">
-                                        <span>Rasalina De Wiliamson</span>
+                                        <span>Artem Koshelyk</span>
                                     </div>
                                 </div>
                             </div>
@@ -317,7 +317,7 @@
                                         experienced people with a passion for financial markets. Our goal is to achieve
                                         continuous.</p>
                                     <div class="testimonial__avatar">
-                                        <span>Rasalina De Wiliamson</span>
+                                        <span>Romanenko Dmitro</span>
                                     </div>
                                 </div>
                             </div>
@@ -329,10 +329,6 @@
         </div>
     </section>
     <!-- testimonial-area-end -->
-
-    <!-- blog-area -->
-    @include('frontend.home_all.home_blog')
-    <!-- blog-area-end -->
 
     <!-- contact-area -->
     <section class="homeContact">

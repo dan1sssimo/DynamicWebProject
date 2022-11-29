@@ -52,43 +52,30 @@
                 <div class="col-lg-4">
                     <aside class="services__sidebar">
                         <div class="widget">
-                            <h5 class="title">Get in Touch</h5>
-                            <form action="#" class="sidebar__contact">
-                                <input type="text" placeholder="Enter name*">
-                                <input type="email" placeholder="Enter your mail*">
-                                <textarea name="message" id="message" placeholder="Massage*"></textarea>
-                                <button type="submit" class="btn">send massage</button>
-                            </form>
-                        </div>
-                        <div class="widget">
                             <h5 class="title">Project Information</h5>
                             <ul class="sidebar__contact__info">
-                                <li><span>Date :</span> January, 2021</li>
-                                <li><span>Location :</span> East Meadow NY 11554</li>
-                                <li><span>Client :</span> American</li>
+                                <li><span>Date :</span> 2021-2022</li>
+                                <li><span>Client :</span> Pet-Project</li>
                                 <li class="cagegory"><span>Category :</span>
-                                    <a href="portfolio.html">Photo,</a>
-                                    <a href="portfolio.html">UI/UX</a>
+                                    <a>PHP</a>
                                 </li>
-                                <li><span>Project Link :</span> <a href="portfolio-details.html">https://www.yournews.com/</a>
+                                <li><span>Project Link :</span> <a
+                                        href="{{$portfolio->portfolio_url}}" ><i class="fab fa-git"></i></a>
                                 </li>
                             </ul>
                         </div>
                         <div class="widget">
                             <h5 class="title">Contact Information</h5>
                             <ul class="sidebar__contact__info">
-                                <li><span>Address :</span> 8638 Amarica Stranfod, <br> Mailbon Star</li>
-                                <li><span>Mail :</span> yourmail@gmail.com</li>
-                                <li><span>Phone :</span> +7464 0187 3535 645</li>
-                                <li><span>Fax id :</span> +9 659459 49594</li>
+                                <li><span>Address :</span> Ukraine <br> Zhytomyr</li>
+                                <li><span>Mail :</span> danilo.savchenko96@gmail.com</li>
+                                <li><span>Phone :</span> +380 98 377 64 77</li>
                             </ul>
                             <ul class="sidebar__contact__social">
-                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                <li><a href="#"><i class="fab fa-git"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-discord"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </aside>
