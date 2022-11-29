@@ -37,8 +37,9 @@
 
         <!-- contact-map -->
         <div id="contact-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96811.54759587669!2d-74.01263924803828!3d40.6880494567041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2sbd!4v1636195194646!5m2!1sen!2sbd"
-                    allowfullscreen loading="lazy"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2145.0969960057964!2d28.658991926234588!3d50.255245258949344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472c6493ebf252ed%3A0xcada781000d71138!2z0LLRg9C70LjRhtGPINCa0LjRl9Cy0YHRjNC60LAsIDc3LCDQltC40YLQvtC80LjRgCwg0JbQuNGC0L7QvNC40YDRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgMTAwMDA!5e0!3m2!1suk!2sua!4v1669736751664!5m2!1suk!2sua"
+                allowfullscreen loading="lazy"></iframe>
         </div>
         <!-- contact-map-end -->
 
@@ -50,16 +51,16 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <input  name="name" type="text" placeholder="Enter your name*">
+                            <input name="name" type="text" placeholder="Enter your name*">
                         </div>
                         <div class="col-md-6">
                             <input name="email" type="email" placeholder="Enter your mail*">
                         </div>
                         <div class="col-md-6">
-                            <input  name="subject" type="text" placeholder="Enter your subject*">
+                            <input name="subject" type="text" placeholder="Enter your subject*">
                         </div>
                         <div class="col-md-6">
-                            <input  name="phone" type="text" placeholder="Your Phone*">
+                            <input name="phone" type="text" placeholder="Your Phone*">
                         </div>
                     </div>
                     <textarea name="message" id="message" placeholder="Enter your massage*"></textarea>
@@ -80,7 +81,7 @@
                             </div>
                             <div class="contact__info__content">
                                 <h4 class="title">address line</h4>
-                                <span>Bowery St, New York, <br> NY 10013,USA</span>
+                                <span>Ukraine<br> Zhytomyr</span>
                             </div>
                         </div>
                     </div>
@@ -91,8 +92,8 @@
                             </div>
                             <div class="contact__info__content">
                                 <h4 class="title">Phone Number</h4>
-                                <span>+1255 - 568 - 6523</span>
-                                <span>+1255 - 568 - 6523</span>
+                                <span>+380 98 377 64 77</span>
+                                <span><i class="fab fa-telegram"></i></span>
                             </div>
                         </div>
                     </div>
@@ -103,8 +104,8 @@
                             </div>
                             <div class="contact__info__content">
                                 <h4 class="title">Mail Address</h4>
-                                <span>email@example.com</span>
-                                <span>info@yourdomain.com</span>
+                                <span>danilo.savchenko96@gmail.com</span>
+                                <span><i class="fab fa-telegram"></i></span>
                             </div>
                         </div>
                     </div>
