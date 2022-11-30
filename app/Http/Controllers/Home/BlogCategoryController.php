@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Home;
 
 use App\Http\Controllers\Controller;
 use Carbon\Carbon;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\Request;
 use App\Models\BlogCategory;
 
@@ -23,9 +24,6 @@ class BlogCategoryController extends Controller
 
     public function StoreBlogCategory(Request $request)
     {
-        $request->validate([
-            'blog_category' => 'required',
-        ]);
 
         BlogCategory::insert([
             'blog_category' => $request->blog_category,
@@ -47,10 +45,6 @@ class BlogCategoryController extends Controller
 
     public function UpdateBlogCategory(Request $request)
     {
-        $request->validate([
-            'blog_category' => 'required',
-        ]);
-
         $blog_category_id = $request->id;
 
         BlogCategory::findOrFail($blog_category_id)->update([
@@ -66,11 +60,19 @@ class BlogCategoryController extends Controller
 
     public function DeleteBlogCategory($id)
     {
-        BlogCategory::findOrFail($id)->delete();
+        try {
+            BlogCategory::findOrFail($id)->delete();
+        } catch (ModelNotFoundException $ex) {
+            $notification = array(
+                'message' => 'This Category Not Exist',
+                'alert-type' => 'error'
+            );
+            return redirect()->back()->with($notification);
+        }
         $notification = array(
             'message' => 'Blog Category Deleted Successfully',
             'alert-type' => 'success'
         );
-        return redirect()->route('all.blog.category')->with($notification);
+        return redirect()->back()->with($notification);
     }
 }
