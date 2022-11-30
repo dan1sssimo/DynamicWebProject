@@ -18,7 +18,7 @@
                         <div class="blog__post__content">
                             <span class="date">{{\Carbon\Carbon::parse($blog->created_at)->diffForHumans()}}</span>
                             <h3 class="title">
-                                <a href="{{route('blog.details',$blog->id)}}">{{$blog->blog_title}}</a></h3>
+                                <a href="{{route('blog.details',$blog->id)}}" >{{$blog->blog_title}}</a></h3>
                             <a href="{{route('blog.details',$blog->id)}}" class="read__more">Read mORe</a>
                         </div>
                     </div>

@@ -17,7 +17,7 @@
                                         Category Name</label>
                                     <div class="form-group col-sm-10">
                                         <input name="blog_category" class="form-control" type="text"
-                                               placeholder="Artisanal kale"
+                                               placeholder="Please type require data"
                                                id="example-text-input">
                                     </div>
                                 </div>
@@ -31,18 +31,6 @@
             </div>
         </div>
     </div>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#image').change(function (e) {
-                let reader = new FileReader();
-                reader.onload = function (e) {
-                    $('#showImage').attr('src', e.target.result);
-                }
-                reader.readAsDataURL(e.target.files['0']);
-            });
-        });
-    </script>
 
     <script type="text/javascript">
         $(document).ready(function () {

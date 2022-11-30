@@ -8,7 +8,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title mb-5">Blog Category Edit</h4>
-                            <form method="post" action="{{route('update.blog.category')}}">
+                            <form method="post" id="editCategory" action="{{route('update.blog.category')}}">
                                 @csrf
 
                                 <input type="hidden" name="id" value="{{$blogCategory->id}}">
@@ -16,9 +16,9 @@
                                 <div class="row mb-3">
                                     <label for="example-text-input" class="col-sm-2 col-form-label">Blog Category
                                         Name</label>
-                                    <div class="col-sm-10">
+                                    <div class="form-group col-sm-10">
                                         <input name="blog_category" class="form-control" type="text"
-                                               placeholder="Artisanal kale"
+                                               placeholder="Please type require data"
                                                id="example-text-input"
                                                value="{{$blogCategory->blog_category}}">
                                         @error('blog_category')
@@ -38,13 +38,29 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            $('#image').change(function (e) {
-                let reader = new FileReader();
-                reader.onload = function (e) {
-                    $('#showImage').attr('src', e.target.result);
+            $('#editCategory').validate({
+                rules: {
+                    blog_category: {
+                        required: true,
+                    },
+                },
+                messages: {
+                    blog_category: {
+                        required: 'Please Enter Blog Category',
+                    },
+                },
+                errorElement: 'span',
+                errorPlacement: function (error, element) {
+                    error.addClass('invalid-feedback');
+                    element.closest('.form-group').append(error);
+                },
+                highlight: function (element, errorClass, validClass) {
+                    $(element).addClass('is-invalid');
+                },
+                unhighlight: function (element, errorClass, validClass) {
+                    $(element).removeClass('is-invalid');
                 }
-                reader.readAsDataURL(e.target.files['0']);
-            });
-        });
+            })
+        })
     </script>
 @endsection

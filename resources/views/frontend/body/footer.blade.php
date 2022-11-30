@@ -36,13 +36,10 @@
                         <h4 class="title">socially connect</h4>
                     </div>
                     <div class="footer__widget__social">
-                        <p>Lorem ipsum dolor sit amet enim. <br> Etiam ullamcorper.</p>
+                        <p>Feel free to contact contact</p>
                         <ul class="footer__social__list">
-                            <li><a href="{{$footerData->facebook}}"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="{{$footerData->twitter}}"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fab fa-behance"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="{{$footerData->facebook}}"><i class="fab fa-git"></i></a></li>
+                            <li><a href="{{$footerData->twitter}}"><i class="fab fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
