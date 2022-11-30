@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Home\AboutController;
 use App\Http\Controllers\Home\BlogCategoryController;
+use App\Http\Controllers\Home\ClientFeedbackController;
 use App\Http\Controllers\Home\ContactController;
 use App\Http\Controllers\Home\FooterController;
 use App\Http\Controllers\Home\PortfolioController;
@@ -114,6 +115,20 @@ Route::controller(ContactController::class)->group(function () {
     Route::post('/store/message', 'StoreMessage')->name('store.message');
     Route::get('/contact/message', 'ContactMessage')->name('contact.message');
     Route::get('/delete/message/{id}', 'DeleteMessage')->name('delete.message');
+});
+
+// ClientFeedback All Route
+Route::controller(ClientFeedbackController::class)->group(function () {
+    Route::get('/all/feedback', 'AllFeedback')->name('all.feedback');
+    Route::get('/add/feedback', 'AddFeedback')->name('add.feedback');
+    Route::post('/store/feedback', 'StoreFeedback')->name('store.feedback');
+    Route::get('/delete/feedback/{id}', 'DeleteFeedback')->name('delete.feedback');
+    Route::get('/all/feedback/multi', 'AllFeedbackMulti')->name('all.feedback.multi');
+    Route::get('/add/feedback/multi', 'AddFeedbackMulti')->name('add.feedback.multi');
+    Route::post('/store/feedback/multi/image', 'StoreFeedbackMultiImage')->name('store.feedback.multi.image');
+    Route::get('/edit/feedback/multi/image/{id}', 'EditFeedbackMultiImage')->name('edit.feedback.multi.image');
+    Route::post('/update/feedback/multi/image', 'UpdateFeedbackMultiImage')->name('update.feedback.multi.image');
+    Route::get('/delete/feedback/multi/image/{id}', 'DeleteFeedbackMultiImage')->name('delete.feedback.multi.image');
 });
 
 

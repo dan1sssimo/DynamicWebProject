@@ -33,7 +33,7 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="{{route('about.page')}}">About Page</a></li>
-                        <li><a href="{{route('about.multi.image')}}">About Multi Image</a></li>
+                        <li><a href="{{route('about.multi.image')}}">Add Multi Image</a></li>
                         <li><a href="{{route('all.multi.image')}}">All Multi Image</a></li>
                     </ul>
                 </li>
@@ -78,6 +78,19 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="{{route('footer.setup')}}">Footer Setup</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="ri-mail-send-line"></i>
+                        <span>Client Feedback Page Setup</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="{{route('all.feedback')}}">All Feedback</a></li>
+                        <li><a href="{{route('add.feedback')}}">Add Feedback</a></li>
+                        <li><a href="{{route('all.feedback.multi')}}">All Multi Image</a></li>
+                        <li><a href="{{route('add.feedback.multi')}}">Add Multi Image</a></li>
                     </ul>
                 </li>
 
