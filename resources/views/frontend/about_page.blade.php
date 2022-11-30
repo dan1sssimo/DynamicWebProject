@@ -342,13 +342,23 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="homeContact__form">
-                                <form method="post" action="{{route('store.message')}}">
+                                <form method="post" id="contactForm" action="{{route('store.message')}}">
                                     @csrf
-                                    <input name="name" type="text" placeholder="Enter your name*">
-                                    <input name="email" type="email" placeholder="Enter your mail*">
-                                    <input name="subject" type="text" placeholder="Enter your subject*">
-                                    <input name="phone" type="text" placeholder="Your phone*">
-                                    <textarea name="message" placeholder="Enter your massage*"></textarea>
+                                    <div class="form-group">
+                                        <input name="name" type="text" placeholder="Enter your name*">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="email" type="email" placeholder="Enter your mail*">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="subject" type="text" placeholder="Enter your subject*">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="phone" type="text" placeholder="Your phone*">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="message" placeholder="Enter your massage*"></textarea>
+                                    </div>
                                     <button type="submit">Send Message</button>
                                 </form>
                             </div>

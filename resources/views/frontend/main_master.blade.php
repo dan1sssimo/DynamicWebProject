@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css">
 </head>
 <body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- preloader-start -->
 <div id="preloader">
     <div class="rasalina-spin-box"></div>
@@ -61,8 +61,9 @@
 <script src="{{asset('frontend/assets/js/wow.min.js')}}"></script>
 <script src="{{asset('frontend/assets/js/plugins.js')}}"></script>
 <script src="{{asset('frontend/assets/js/main.js')}}"></script>
+<script src="{{ asset('backend/assets/js/validate.min.js') }}"></script>
+<script src="{{ asset('frontend/assets/js/validate.js') }}"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-
 <script>
     @if(Session::has('message'))
     let type = "{{ Session::get('alert-type','info') }}"
