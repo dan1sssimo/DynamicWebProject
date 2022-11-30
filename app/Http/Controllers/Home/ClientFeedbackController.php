@@ -67,7 +67,7 @@ class ClientFeedbackController extends Controller
 
         foreach ($image as $multi_image) {
             $name_gen = hexdec(uniqid()) . '.' . $multi_image->getClientOriginalExtension();
-            Image::make($multi_image)->resize(220, 220)->save('upload/feedback/' . $name_gen);
+            Image::make($multi_image)->resize(120, 120)->save('upload/feedback/' . $name_gen);
             $save_url = 'upload/feedback/' . $name_gen;
             ClientFeedbackMulti::insert([
                 'multi_image' => $save_url,
@@ -98,7 +98,7 @@ class ClientFeedbackController extends Controller
             $image = $request->file('multi_image');
             unlink($img);
             $name_gen = hexdec(uniqid()) . '.' . $image->getClientOriginalExtension();
-            Image::make($image)->resize(220, 220)->save('upload/feedback/' . $name_gen);
+            Image::make($image)->resize(120, 120)->save('upload/feedback/' . $name_gen);
             $save_url = 'upload/feedback/' . $name_gen;
             ClientFeedbackMulti::findOrFail($multi_image_id)->update([
                 'multi_image' => $save_url,

@@ -1,5 +1,5 @@
 @php
-    $blogs = App\Models\Blog::latest()->get();
+    $blogs = App\Models\Blog::latest()->limit(3)->get();
 @endphp
 <section class="blog">
     <div class="container">
