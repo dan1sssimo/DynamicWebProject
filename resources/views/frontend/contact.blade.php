@@ -51,20 +51,25 @@
 
                     <div class="row">
                         <div class="form-group col-md-6">
-                            <input name="name" type="text" placeholder="Enter your name*">
+                            <input name="name" class="form-control" type="text"
+                                   placeholder="Enter your name*">
                         </div>
                         <div class="form-group col-md-6">
-                            <input name="email" type="email" placeholder="Enter your mail*">
+                            <input name="email" class="form-control" type="email"
+                                   placeholder="Enter your mail*">
                         </div>
                         <div class="form-group col-md-6">
-                            <input name="subject" type="text" placeholder="Enter your subject*">
+                            <input name="subject" class="form-control" type="text"
+                                   placeholder="Enter your subject*">
                         </div>
                         <div class="form-group col-md-6">
-                            <input name="phone" type="text" placeholder="Your Phone*">
+                            <input name="phone" class="form-control" type="text"
+                                   placeholder="Your Phone*">
                         </div>
                     </div>
                     <div class="form-group">
-                        <textarea  name="message" id="message" placeholder="Enter your massage*"></textarea></div>
+                        <textarea name="message" id="message" class="form-control"
+                                  placeholder="Enter your massage*"></textarea></div>
                     <button type="submit" class="btn">send massage</button>
                 </form>
             </div>

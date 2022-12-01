@@ -56,8 +56,8 @@ class AboutController extends Controller
     {
         $aboutPage = About::find(1);
         $blogs = Blog::latest()->limit(3)->get();
-        $feedbacks = ClientFeedback::latest()->get();
-        return view('frontend.about_page', compact('aboutPage', 'blogs','feedbacks'));
+        $feedbacks = ClientFeedback::latest()->limit(2)->get();
+        return view('frontend.about_page', compact('aboutPage', 'blogs', 'feedbacks'));
     }
 
     public function AboutMultiImage()

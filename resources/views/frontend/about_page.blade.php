@@ -235,42 +235,23 @@
                                 <h2 class="title">Some happy clients feedback</h2>
                             </div>
                             <div class="testimonial__two__active">
+                                @foreach($feedbacks as $feedback)
                                 <div class="testimonial__item">
                                     <div class="testimonial__icon">
                                         <i class="fas fa-quote-left"></i>
                                     </div>
                                     <div class="testimonial__content">
-                                        <p>We are motivated by the satisfaction of our clients. Put your trust in us
-                                            &share in our H.Spond Asset Management is made up of a team of expert,
-                                            committed and experienced people with a passion for financial markets. Our
-                                            goal is to achieve continuous.</p>
+                                        <p>{{$feedback->short_description}}</p>
                                         <div class="testimonial__avatar">
-                                            <span>WPBakery/ uSA</span>
+                                            <span>{{$feedback->job_type}}</span>
                                             <div class="testi__avatar__img">
-                                                <img src="{{asset('frontend/assets/img/images/testi_avatar01.png')}}"
+                                                <img src="{{asset('frontend/assets/img/images/php_image.png')}}"
                                                      alt="">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="testimonial__item">
-                                    <div class="testimonial__icon">
-                                        <i class="fas fa-quote-left"></i>
-                                    </div>
-                                    <div class="testimonial__content">
-                                        <p>We are motivated by the satisfaction of our clients. Put your trust in us
-                                            &share in our H.Spond Asset Management is made up of a team of expert,
-                                            committed and experienced people with a passion for financial markets. Our
-                                            goal is to achieve continuous.</p>
-                                        <div class="testimonial__avatar">
-                                            <span>Adobe Photoshop</span>
-                                            <div class="testi__avatar__img">
-                                                <img src="{{asset('frontend/assets/img/images/testi_avatar02.png')}}"
-                                                     alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                             <div class="testimonial__arrow"></div>
                         </div>
@@ -345,19 +326,23 @@
                                 <form method="post" id="contactForm" action="{{route('store.message')}}">
                                     @csrf
                                     <div class="form-group">
-                                        <input name="name" type="text" placeholder="Enter your name*">
+                                        <input name="name" class="form-control" type="text"
+                                               placeholder="Enter your name*">
                                     </div>
                                     <div class="form-group">
-                                        <input name="email" type="email" placeholder="Enter your mail*">
+                                        <input name="email" class="form-control" type="email"
+                                               placeholder="Enter your mail*">
                                     </div>
                                     <div class="form-group">
-                                        <input name="subject" type="text" placeholder="Enter your subject*">
+                                        <input name="subject" class="form-control" type="text"
+                                               placeholder="Enter your subject*">
                                     </div>
                                     <div class="form-group">
-                                        <input name="phone" type="text" placeholder="Your phone*">
+                                        <input name="phone" class="form-control" type="text"
+                                               placeholder="Your Phone*">
                                     </div>
                                     <div class="form-group">
-                                        <textarea name="message" placeholder="Enter your massage*"></textarea>
+                                        <textarea name="message" class="form-control" placeholder="Enter your massage*"></textarea>
                                     </div>
                                     <button type="submit">Send Message</button>
                                 </form>

@@ -49,19 +49,23 @@
                             <form method="post" id="contactForm" action="{{route('store.message')}}">
                                 @csrf
                                 <div class="form-group">
-                                    <input name="name" type="text" placeholder="Enter your name*">
+                                    <input name="name" class="form-control" type="text"
+                                           placeholder="Enter your name*">
                                 </div>
                                 <div class="form-group">
-                                    <input name="email" type="email" placeholder="Enter your mail*">
+                                    <input name="email" class="form-control" type="email"
+                                           placeholder="Enter your mail*">
                                 </div>
                                 <div class="form-group">
-                                    <input name="subject" type="text" placeholder="Enter your subject*">
+                                    <input name="subject" class="form-control" type="text"
+                                           placeholder="Enter your subject*">
                                 </div>
                                 <div class="form-group">
-                                    <input name="phone" type="text" placeholder="Your phone*">
+                                    <input name="phone" class="form-control" type="text"
+                                           placeholder="Your Phone*">
                                 </div>
                                 <div class="form-group">
-                                    <textarea name="message" placeholder="Enter your massage*"></textarea>
+                                    <textarea name="message" class="form-control" placeholder="Enter your massage*"></textarea>
                                 </div>
                                 <button type="submit">Send Message</button>
                             </form>

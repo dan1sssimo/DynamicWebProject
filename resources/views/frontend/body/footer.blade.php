@@ -9,7 +9,7 @@
             <div class="col-lg-4">
                 <div class="footer__widget">
                     <div class="fw-title">
-                        <h5 class="sub-title">Contact us</h5>
+                        <h5 class="sub-title">Contact me</h5>
                         <h4 class="title">{{$footerData->number}}</h4>
                     </div>
                     <div class="footer__widget__text">
