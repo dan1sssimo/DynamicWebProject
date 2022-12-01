@@ -59,7 +59,7 @@
                                 </div>
                             </div>
                             <p class="desc">{{$aboutPage->short_description}}</p>
-                            <a href="about.html" class="btn">Download my resume</a>
+                            <a href="https://github.com/dan1sssimo" class="btn">My GitHub</a>
                         </div>
                     </div>
                 </div>
