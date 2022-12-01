@@ -51,12 +51,15 @@
                                     <div class="portfolio__inner__content">
                                         <h2 class="title"><a href="{{ route('portfolio.details',$item->id)}}">{{$item->portfolio_title}}</a></h2>
                                         <p>{!! Str::limit($item->portfolio_description, 200) !!}  </p>
-                                        <a href="{{ route('portfolio.details',$item->id)}}" class="link">View Case Study</a>
+                                        <a href="{{ route('portfolio.details',$item->id)}}" class="link">View Case </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     @endforeach
+                </div>
+                <div class="pagination-wrap">
+                        {{$portfolio->links('vendor.pagination.custom')}}
                 </div>
             </div>
         </section>

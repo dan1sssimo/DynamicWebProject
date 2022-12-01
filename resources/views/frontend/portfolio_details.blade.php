@@ -67,15 +67,13 @@
                         <div class="widget">
                             <h5 class="title">Contact Information</h5>
                             <ul class="sidebar__contact__info">
-                                <li><span>Address :</span> Ukraine <br> Zhytomyr</li>
+                                <li><span>Address :</span> Ukraine, Zhytomyr</li>
                                 <li><span>Mail :</span> danilo.savchenko96@gmail.com</li>
                                 <li><span>Phone :</span> +380 98 377 64 77</li>
                             </ul>
                             <ul class="sidebar__contact__social">
-                                <li><a href="#"><i class="fab fa-git"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fab fa-discord"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://github.com/dan1sssimo"><i class="fab fa-git"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/danylo-savchenko-3bb5b8222/"><i class="fab fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </aside>
